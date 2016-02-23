@@ -28,5 +28,5 @@ button {
 	color: white;
 	border-radius: 10px;
 	border: none;
-	box-shadow: 0px 0px 50px rgba(225, 225, 225, 0.5);
+	box-shadow: 0px 0px 20px rgba(225, 225, 225, 1.0);
 }
