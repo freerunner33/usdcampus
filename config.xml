@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
@@ -14,7 +13,8 @@
         Campus app for the University of San Diego
     </description>
 
-    <author href="http://noahthomas.us"email="noah.hockey33@gmail.com">
+    <author href="https://noahthomas.us" email="noah.hockey33@gmail.com">
         Noah Thomas
     </author>
+
 </widget>
