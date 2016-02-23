@@ -17,16 +17,16 @@ $(document).ready(function() {
 			
 	// 	}
 	// })
+})
 
-	$('button').on('click', function() {
-		if ('geolocation' in navigator) {
-	
-			navigator.geolocation.getCurrentPosition(function(position) {
-				alert('hi')
-				// do_something(position.coords.latitude, position.coords.longitude);
-			})
-		} else {
-			document.getElementById('location').innerHTML = 'Navigator is included'
-		}
-	})
+$('button').on('click', function() {
+	if ('geolocation' in navigator) {
+
+		navigator.geolocation.getCurrentPosition(function(position) {
+			alert('hi')
+			// do_something(position.coords.latitude, position.coords.longitude);
+		})
+	} else {
+		document.getElementById('location').innerHTML = 'Navigator is included'
+	}
 })
