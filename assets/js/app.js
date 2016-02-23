@@ -23,7 +23,7 @@ $('button').on('click', function() {
 	if ('geolocation' in navigator) {
 
 		navigator.geolocation.getCurrentPosition(function(position) {
-			alert('hi')
+			alert('hi ' + position.coords.latitude + ' what')
 			// do_something(position.coords.latitude, position.coords.longitude);
 		})
 	} else {
