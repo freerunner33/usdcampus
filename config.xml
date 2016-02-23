@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.noah.usdcampus"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>USD Campus</name>
+
+    <description>
+        Campus app for the University of San Diego
+    </description>
+
+    <author email="noah.hockey33@gmail.com">
+        Noah Thomas
+    </author>
+
+    <platform name='android' />
+
+</widget>

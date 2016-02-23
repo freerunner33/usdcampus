@@ -1,0 +1,32 @@
+
+body {
+	background: linear-gradient(#003b70, white) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0em;
+	text-align: center;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+/*
+button {
+	display: block;
+	margin: 2em auto;
+	width: 10em;
+	height: 2em;
+	font-size: 1.5em;
+	background-color: #ccc;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}*/
