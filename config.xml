@@ -14,10 +14,10 @@
         Campus app for the University of San Diego
     </description>
 
-    <author email="noah.hockey33@gmail.com">
+    <author href="http://noahthomas.us"email="noah.hockey33@gmail.com">
         Noah Thomas
     </author>
 
-    <platform name='android' />
+    <platform name="android" />
 
 </widget>
