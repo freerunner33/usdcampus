@@ -1,9 +1,13 @@
 
 $('img').on('click', function() {
-	alert('ready')
+	// alert('ready')
 })
 
 $(document).ready(function() {
+	// $(document).bind('mobileinit', function(){ 
+	//     $.mobile.metaViewportContent = 'width=device-width, minimum-scale=1, maximum-scale=2'; 
+	// })
+	
 	// $.ajax({
 	// 	url: 'http://noahthomas.us/',
 	// 	method: 'POST'
