@@ -3,21 +3,20 @@
 
 <html>
 	<head>
-		<title>USD Campus</title>
+		<title>USD Campus - Map</title>
 		<link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+		<link href='assets/css/map.css' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8"> 
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 	</head>
 	<body>
 		<img src='assets/images/logo-reverse-immaculata.png' onclick='window.location="map.html"'>
 
-		<h1>USD Campus</h1>
+		<h1>USD Campus - Map</h1>
 
-		<button type='button'>Get my location</button>
-
-		<p id='location'>Location: </p>
-
-		<button type='button' onclick='window.location="map.html"'>Access map</button>
+		<div id='map'>
+			<img src='map.png' alt='Map'>
+		</div>
 
 		<script src="assets/js/jquery.js"></script>
 		<script src="assets/js/app.js"></script>

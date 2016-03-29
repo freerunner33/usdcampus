@@ -1,0 +1,8 @@
+
+div#map {
+	overflow: scroll;
+}
+
+div#map img {
+	width: 300%;
+}
