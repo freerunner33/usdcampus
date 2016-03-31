@@ -21,13 +21,14 @@ $(document).ready(function() {
 
 $('button').on('click', function() {
 	if ('geolocation' in navigator) {
-		alert('hi')
-
 		navigator.geolocation.getCurrentPosition(function(position) {
 			var str = 'Latitude: ' + position.coords.latitude + '</p><p>Longitude: ' + position.coords.longitude + '</p>'
 			document.getElementById('location').innerHTML = str
+			alert(str)
 			// do_something(position.coords.latitude, position.coords.longitude);
 		})
+
+
 	} else {
 		document.getElementById('location').innerHTML = 'Navigator is not included'
 	}
