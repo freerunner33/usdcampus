@@ -3,11 +3,7 @@ $('img').on('click', function() {
 	// alert('ready')
 })
 
-$(document).ready(function() {
-	// $(document).bind('mobileinit', function(){ 
-	//     $.mobile.metaViewportContent = 'width=device-width, minimum-scale=1, maximum-scale=2'; 
-	// })
-	
+$(document).ready(function() {	
 	// $.ajax({
 	// 	url: 'http://noahthomas.us/',
 	// 	method: 'POST'
