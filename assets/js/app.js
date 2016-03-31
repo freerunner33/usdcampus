@@ -26,6 +26,8 @@ $('button').on('click', function() {
 			document.getElementById('location').innerHTML = str
 			alert(str)
 			// do_something(position.coords.latitude, position.coords.longitude);
+		}, function(error) {
+			alert(error)
 		})
 
 
