@@ -22,12 +22,13 @@ $(document).ready(function() {
 $('button').on('click', function() {
 	if ('geolocation' in navigator) {
 		navigator.geolocation.getCurrentPosition(function(position) {
+			alert('hi')
 			var str = 'Latitude: ' + position.coords.latitude + '</p><p>Longitude: ' + position.coords.longitude + '</p>'
 			document.getElementById('location').innerHTML = str
 			alert(str)
 			// do_something(position.coords.latitude, position.coords.longitude);
 		}, function(error) {
-			alert(JSON.stringify(error))
+			alert('ERROR(' + err.code + '): ' + err.message);
 		})
 
 
