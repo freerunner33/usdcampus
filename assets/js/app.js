@@ -28,7 +28,7 @@ $('button').on('click', function() {
 			alert(str)
 			// do_something(position.coords.latitude, position.coords.longitude);
 		}, function(error) {
-			alert('ERROR(' + err.code + '): ' + err.message);
+			alert('ERROR(' + error.code + '): ' + error.message);
 		})
 
 
